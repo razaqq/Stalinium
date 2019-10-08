@@ -18,11 +18,12 @@
 - Kill (CV, BB, ...)
 - Last Hope
 - Heavy Damage
+- Torpedo Hit
 - Good Luck
 - Good Game
 - Fire
 - Enemy spotted (CV, BB, ...)
-- Domination close to win
+- Domination close to win/lose (points and time)
 - Blyat
 - Damage (Turret, Torp, Ruder, Engine, ...)
 - Consumables (AA, Hydro, Spotter Plan, ...)
@@ -31,3 +32,7 @@
 - Autopilot (On, Off, End, Waypoint)
 - Focus Enemy
 - Affirmative
+- Double Strike
+- First Blood
+- Get back
+- Teamkill
