@@ -1,7 +1,7 @@
 
 <AudioModification.xml>
 	<AudioModification>
-		<Name>RU</Name>
+		<Name>Stalinium</Name>
 		<ExternalEvent>
 			<Name>Play_Damage_Death</Name>
 			<Container>
