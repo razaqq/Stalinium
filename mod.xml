@@ -26,13 +26,7 @@
 					<StateList/>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Lets_Battle_1.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Lets_Battle_2.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Lets_Battle_3.wem</Name>
+							<Name>custom_sounds/start_battle.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -56,7 +50,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Defective_Modules_Engine_Damaged.wem</Name>
+							<Name>custom_sounds/module_damage.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -73,7 +67,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Defective_Modules_MainGun_Damaged.wem</Name>
+							<Name>custom_sounds/module_damage.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -90,7 +84,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Defective_Modules_MainGun_Destroyed.wem</Name>
+							<Name>custom_sounds/module_damage.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -107,7 +101,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Defective_Modules_Wheel_Damaged.wem</Name>
+							<Name>custom_sounds/module_damage.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -124,7 +118,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Defective_Modules_Torpedo_Destroyed.wem</Name>
+							<Name>custom_sounds/module_damage.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -616,10 +610,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Detection_Enemy_Aircarrier_1.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Detection_Enemy_Aircarrier_2.wem</Name>
+							<Name>custom_sounds/enemy_spotted.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -632,10 +623,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Detection_Enemy_Battleship_1.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Detection_Enemy_Battleship_2.wem</Name>
+							<Name>custom_sounds/enemy_spotted.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -648,10 +636,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Detection_Enemy_Cruiser_1.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Detection_Enemy_Cruiser_2.wem</Name>
+							<Name>custom_sounds/enemy_spotted.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -664,10 +649,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Detection_Enemy_Destroyer_2.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Detection_Enemy_Destroyer_1.wem</Name>
+							<Name>custom_sounds/enemy_spotted.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -680,10 +662,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Detection_Enemy_Any_Ship_2.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Detection_Enemy_Any_Ship_1.wem</Name>
+							<Name>custom_sounds/enemy_spotted.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -1106,10 +1085,7 @@
 					<StateList/>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Last_Hope_1.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Last_Hope_2.wem</Name>
+							<Name>custom_sounds/last_hope.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -1992,28 +1968,7 @@
 					<StateList/>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Priority_Target_1.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Priority_Target_2.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Priority_Target_3.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Priority_Target_4.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Priority_Target_5.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Priority_Target_6.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Priority_Target_7.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Priority_Target_8.wem</Name>
+							<Name>custom_sounds/priority_target.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -3843,7 +3798,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Game_Ship_1.wem</Name>
+							<Name>custom_sounds/good_game.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -3869,7 +3824,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Need_Smoke_1.wem</Name>
+							<Name>custom_sounds/need_smoke.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -3911,7 +3866,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Need_AA_1.wem</Name>
+							<Name>custom_sounds/need_aa.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -3950,22 +3905,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Enemy_Ship_6.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Enemy_Ship_1.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Enemy_Ship_2.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Enemy_Ship_3.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Enemy_Ship_4.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Enemy_Ship_5.wem</Name>
+							<Name>custom_sounds/priority_target.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -4122,10 +4062,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_No_Way_2.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_No_Way_1.wem</Name>
+							<Name>custom_sounds/negative.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -4138,13 +4075,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Aye_Aye_3.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Aye_Aye_1.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Aye_Aye_2.wem</Name>
+							<Name>custom_sounds/affirmative.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -4157,22 +4088,13 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Caramba_Beep_2.wem</Name>
+							<Name>custom_sounds/damn1.wem</Name>
 						</File>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Caramba_1.wem</Name>
+							<Name>custom_sounds/damn2.wem</Name>
 						</File>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Caramba_2.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Caramba_3.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Caramba_4.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Caramba_Beep_1.wem</Name>
+							<Name>custom_sounds/damn3.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -4185,13 +4107,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Luck_3.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Luck_1.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Luck_2.wem</Name>
+							<Name>custom_sounds/good_luck.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -4204,19 +4120,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Game_5.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Game_1.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Game_2.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Game_3.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Game_4.wem</Name>
+							<Name>custom_sounds/good_game.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -4380,7 +4284,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Need_Smoke_1.wem</Name>
+							<Name>custom_sounds/need_smoke.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -4422,7 +4326,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Need_AA_1.wem</Name>
+							<Name>custom_sounds/need_aa.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -4461,22 +4365,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Enemy_Ship_6.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Enemy_Ship_1.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Enemy_Ship_2.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Enemy_Ship_3.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Enemy_Ship_4.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Enemy_Ship_5.wem</Name>
+							<Name>custom_sounds/priority_target.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -4633,10 +4522,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_No_Way_2.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_No_Way_1.wem</Name>
+							<Name>custom_sounds/negative.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -4649,13 +4535,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Aye_Aye_3.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Aye_Aye_1.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Aye_Aye_2.wem</Name>
+							<Name>custom_sounds/affirmative.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -4668,22 +4548,13 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Caramba_Beep_2.wem</Name>
+							<Name>custom_sounds/damn1.wem</Name>
 						</File>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Caramba_1.wem</Name>
+							<Name>custom_sounds/damn2.wem</Name>
 						</File>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Caramba_2.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Caramba_3.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Caramba_4.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Caramba_Beep_1.wem</Name>
+							<Name>custom_sounds/damn3.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -4696,13 +4567,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Luck_1.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Luck_2.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Luck_3.wem</Name>
+							<Name>custom_sounds/good_luck.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
@@ -4715,19 +4580,7 @@
 					</StateList>
 					<FilesList>
 						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Game_5.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Game_1.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Game_2.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Game_3.wem</Name>
-						</File>
-						<File>
-							<Name>default_sounds/Ru_Speech_Quick_Commands_Good_Game_4.wem</Name>
+							<Name>custom_sounds/good_game.wem</Name>
 						</File>
 					</FilesList>
 				</Path>
