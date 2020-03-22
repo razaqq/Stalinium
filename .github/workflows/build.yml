@@ -1,0 +1,50 @@
+name: Pack mod
+
+on:
+  push:
+    tags:
+      -  "v*"
+
+jobs:
+  pack:
+    name: Pack mod
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: zip mod directory
+        run: cd ./Mod && zip -r ../StaliniumMod.zip .
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
+
+      - name: Upload Release Asset Mod
+        id: upload-release-asset-mod
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./StaliniumMod.zip
+          asset_name: StaliniumMod.zip
+          asset_content_type: application/zip
+
+      - name: Upload Release Asset Installer
+        id: upload-release-asset-installer-windows-amd64
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Installer/deploy/windows/Installer.exe
+          asset_name: StaliniumInstaller.exe
+          asset_content_type: application/zip
