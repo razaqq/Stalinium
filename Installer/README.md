@@ -14,7 +14,7 @@
 7. qtmoc
 8. qtrcc
 9. go get github.com/akavel/rsrc
-10. rsrc -arch amd64 -manifest StaliniumInstaller.exe.manifest -o StaliniumInstaller.syso
+10. rsrc -arch amd64 -manifest StaliniumInstaller.exe.manifest -ico icon.ico -o StaliniumInstaller.syso
 
 #### 3. Build
 11. qtdeploy -docker build windows_64_static
